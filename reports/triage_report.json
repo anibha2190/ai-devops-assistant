@@ -1,0 +1,32 @@
+[
+  {
+    "id": "INC-001",
+    "service": "payment.api",
+    "title": "High CPU usage",
+    "description": "CPU usage reached 95% on the application server",
+    "environment": "development",
+    "severity": "Low",
+    "category": "general",
+    "status": "Needs investigation"
+  },
+  {
+    "id": "INC-002",
+    "service": "orders.api",
+    "title": "Deployment failed",
+    "description": "The latest deployment failed with a container image pull error",
+    "environment": "development",
+    "severity": "High",
+    "category": "Deployment",
+    "status": "Needs investigation"
+  },
+  {
+    "id": "INC-003",
+    "service": "network",
+    "title": "Connection timeout",
+    "description": "The application cannot connect to its backend service",
+    "environment": "development",
+    "severity": "High",
+    "category": "Networking",
+    "status": "Needs investigation"
+  }
+]
